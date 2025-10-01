@@ -1,5 +1,7 @@
+import { listarLugares, buscarPersonaje, inventarioConFrases, poderTotalInventario, agruparObjetosPorCategoria } from "./functions";
+
 const main = (): void => {
-  const opcion: number = 3;
+  const opcion: number = 6;
  
   switch (opcion) {
     case 1:
@@ -22,3 +24,5 @@ const main = (): void => {
       console.log("Opción no válida.");
   }
 };
+
+main();
