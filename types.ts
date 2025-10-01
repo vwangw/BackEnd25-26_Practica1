@@ -14,4 +14,5 @@ type Objeto = {
     id:number; 
     nombre:string; 
     poder:number; 
+    categoria:string;
 };
