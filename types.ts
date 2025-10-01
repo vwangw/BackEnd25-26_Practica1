@@ -1,16 +1,16 @@
-type Lugar = { 
+export type Lugar = { 
     id:number; 
     nombre:string; 
     tipo:string; 
     peligro:number; 
 }; 
-type Personaje = {
+export type Personaje = {
      id:number; 
      nombre:string; 
      fuerza:number; 
      aliado:boolean; 
 }; 
-type Objeto = { 
+export type Objeto = { 
     id:number; 
     nombre:string; 
     poder:number; 
