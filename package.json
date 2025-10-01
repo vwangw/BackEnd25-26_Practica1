@@ -1,0 +1,27 @@
+{
+  "name": "backend_p1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev":"nodemon --exec ts-node index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vwangw/BackEnd25-26_Practica1.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vwangw/BackEnd25-26_Practica1/issues"
+  },
+  "homepage": "https://github.com/vwangw/BackEnd25-26_Practica1#readme",
+  "devDependencies": {
+    "@types/node": "^24.6.1",
+    "nodemon": "^3.1.10",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}
